@@ -99,6 +99,7 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-cifs-mou
 git clone https://github.com/yiguihai/luci-app-passwall-plus
 git clone https://github.com/liuran001/openwrt-udpspeeder
 git clone https://github.com/koshev-msk/luci-app-modeminfo
+git clone https://github.com/wongsyrone/openwrt-Pcap_DNSProxy
 
 rm -rf ./*/.git
 rm -rf ./*/.svn
