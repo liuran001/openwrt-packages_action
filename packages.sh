@@ -97,7 +97,7 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ddns-scripts_aliy
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ddns-scripts_dnspod
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-cifs-mount
 git clone https://github.com/yiguihai/luci-app-passwall-plus
-git clone https://github.com/liuran001/openwrt-udpspeeder
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/openwrt-udpspeeder
 git clone https://github.com/koshev-msk/luci-app-modeminfo
 git clone https://github.com/wongsyrone/openwrt-Pcap_DNSProxy
 
