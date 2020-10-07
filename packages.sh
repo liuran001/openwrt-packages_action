@@ -109,7 +109,7 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/openwrt-u
 svn co https://github.com/obsy/packages/trunk/3ginfo
 svn co https://github.com/liuran001/openwrt-theme/trunk/luci-theme-argon-lr
 
-rm -rf .git
-rm -rf .svn 
+rm -rf ./*/.git
+rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
 exit 0
