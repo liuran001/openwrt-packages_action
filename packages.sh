@@ -104,6 +104,7 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/tcpping
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/dnscrypt-proxy-full
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/dnsforwarder
 
 rm -rf .git .svn .gitattributes .gitignore
 exit 0
