@@ -99,9 +99,7 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-cifs-mou
 git clone https://github.com/yiguihai/luci-app-passwall-plus
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/openwrt-udpspeeder
 git clone https://github.com/koshev-msk/luci-app-modeminfo
-git clone https://github.com/wongsyrone/openwrt-Pcap_DNSProxy
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/openwrt-Pcap_DNSProxy
 
-rm -rf ./*/.git
-rm -rf ./*/.svn
-rm -f README.md .gitattributes .gitignore
+rm -rf .git .svn .gitattributes .gitignore
 exit 0
