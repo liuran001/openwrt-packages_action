@@ -102,6 +102,8 @@ git clone https://github.com/koshev-msk/luci-app-modeminfo
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/openwrt-Pcap_DNSProxy
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/tcpping
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/dnscrypt-proxy-full
 
 rm -rf .git .svn .gitattributes .gitignore
 exit 0
