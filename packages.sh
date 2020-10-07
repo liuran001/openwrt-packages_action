@@ -97,8 +97,17 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ddns-scripts_aliy
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ddns-scripts_dnspod
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-cifs-mount
 git clone https://github.com/yiguihai/luci-app-passwall-plus
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/openwrt-udpspeeder
+git clone https://github.com/koshev-msk/luci-app-modeminfo
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/openwrt-Pcap_DNSProxy
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/tcpping
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/dnscrypt-proxy-full
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/dnsforwarder
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/openwrt-udp2raw
+svn co https://github.com/obsy/packages/trunk/3ginfo
+svn co https://github.com/liuran001/openwrt-theme/trunk/luci-theme-argon-lr
 
-rm -rf ./*/.git
-rm -rf ./*/.svn
-rm -f README.md .gitattributes .gitignore
+rm -rf .git .svn .gitattributes .gitignore
 exit 0
