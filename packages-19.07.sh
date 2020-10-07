@@ -108,5 +108,7 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/dnsforwarder
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ntlf9t/openwrt-udp2raw
 svn co https://github.com/obsy/packages/trunk/3ginfo
 
-rm -rf .git .svn .gitattributes .gitignore
+rm -rf .git
+rm -rf .svn 
+rm -f .gitattributes .gitignore
 exit 0
