@@ -106,6 +106,8 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/tcpping
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/dnscrypt-proxy-full
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/dnsforwarder
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/openwrt-udp2raw
+svn co https://github.com/obsy/packages/trunk/3ginfo
+svn co https://github.com/liuran001/openwrt-theme/trunk/luci-theme-argon-lr
 
 rm -rf .git .svn .gitattributes .gitignore
 exit 0
