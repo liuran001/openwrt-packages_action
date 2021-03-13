@@ -108,6 +108,7 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/dnsforwarder
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ntlf9t/openwrt-udp2raw
 svn co https://github.com/obsy/packages/trunk/3ginfo
 git clone https://github.com/jerrykuku/luci-app-argon-config
+svn co https://github.com/BCYDTZ/luci-app-UUGameAcc/trunk ./luci-app-UUGameAcc
 
 rm -rf ./*/.git
 rm -rf ./*/.svn 
