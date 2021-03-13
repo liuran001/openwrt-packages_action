@@ -1,7 +1,7 @@
 #!/bin/bash
 svn co https://github.com/kenzok8/openwrt-packages/trunk/adguardhome
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/gost
-svn co https://github.com/rufengsuixing/luci-app-adguardhome/trunk ./luci-app-adguardhome
+svn co https://github.com/kongfl888/luci-app-adguardhome/trunk ./luci-app-adguardhome
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/luci-app-advancedsetting
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
 svn co https://github.com/frainzy1477/luci-app-clash/trunk ./luci-app-clash
@@ -109,6 +109,7 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/openwrt-u
 svn co https://github.com/obsy/packages/trunk/3ginfo
 svn co https://github.com/liuran001/openwrt-theme/trunk/luci-theme-argon-lr
 git clone https://github.com/jerrykuku/luci-app-argon-config
+svn co https://github.com/BCYDTZ/luci-app-UUGameAcc/trunk ./luci-app-UUGameAcc
 
 rm -rf ./*/.git
 rm -rf ./*/.svn 
