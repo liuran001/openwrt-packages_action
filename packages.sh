@@ -1,6 +1,6 @@
 #!/bin/bash
 svn co https://github.com/kenzok8/openwrt-packages/trunk/adguardhome
-svn co https://github.com/immortalwrt/packages/trunk/package/net/ctcgfw/gost
+svn co https://github.com/immortalwrt/packages/trunk/net/ctcgfw/gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome ./luci-app-adguardhome
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
 svn co https://github.com/frainzy1477/luci-app-clash/trunk ./luci-app-clash
@@ -80,7 +80,7 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ddns-scripts_aliy
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ddns-scripts_dnspod
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-cifs-mount
 git clone https://github.com/yiguihai/luci-app-passwall-plus
-svn co https://github.com/immortalwrt/immortalwrt/trunk/net/udpspeeder
+svn co https://github.com/immortalwrt/packages/trunk/net/udpspeeder
 git clone https://github.com/koshev-msk/luci-app-modeminfo
 svn co https://github.com/immortalwrt/packages/trunk/net/openwrt-pcap_dnsproxy
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks
