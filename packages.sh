@@ -1,6 +1,6 @@
 #!/bin/bash
 svn co https://github.com/kenzok8/openwrt-packages/trunk/adguardhome
-svn co https://github.com/immortalwrt/packages/trunk/net/ctcgfw/gost
+svn co https://github.com/immortalwrt/packages/trunk/net/gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome ./luci-app-adguardhome
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
 svn co https://github.com/frainzy1477/luci-app-clash/trunk ./luci-app-clash
