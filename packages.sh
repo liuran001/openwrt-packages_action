@@ -87,7 +87,7 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/tcpping
 svn co https://github.com/immortalwrt/packages/trunk/net/dnscrypt-proxy
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/dnsforward
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/dnsforwarder
 svn co https://github.com/obsy/packages/trunk/3ginfo
 svn co https://github.com/liuran001/openwrt-theme/trunk/luci-theme-argon-lr
 git clone https://github.com/jerrykuku/luci-app-argon-config
