@@ -1,8 +1,7 @@
 #!/bin/bash
 svn co https://github.com/kenzok8/openwrt-packages/trunk/adguardhome
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/gost
-svn co https://github.com/kongfl888/luci-app-adguardhome/trunk ./luci-app-adguardhome
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/luci-app-advancedsetting
+svn co https://github.com/immortalwrt/packages/trunk/package/net/ctcgfw/gost
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome ./luci-app-adguardhome
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
 svn co https://github.com/frainzy1477/luci-app-clash/trunk ./luci-app-clash
 rm -rf luci-app-openclash
@@ -11,7 +10,6 @@ git clone https://github.com/vernesong/OpenClash.git
 mv -f OpenClash/luci-app-openclash .
 rm -rf OpenClash
 svn co https://github.com/garypang13/luci-app-eqos/trunk ./luci-app-eqos
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-gost
 svn co https://github.com/jerrykuku/luci-app-jd-dailybonus/trunk ./luci-app-jd-dailybonus
 svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme-argon
 svn co https://github.com/jerrykuku/luci-app-vssr/trunk ./luci-app-vssr
@@ -30,15 +28,6 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentomato
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentomcat
 svn co https://github.com/jerrykuku/node-request/trunk ./node-request
 svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./lua-maxminddb
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-theme-Butterfly-dark
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-theme-Butterfly
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-theme-argon-mc
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-theme-argon-mod
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-theme-argonv2
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-theme-argonv3
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-theme-darkmatter
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-theme-infinityfreedom
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-theme-netgearv2
 svn co https://github.com/rosywrt/luci-theme-rosy/trunk/luci-theme-rosy
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/UnblockNeteaseMusic
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/UnblockNeteaseMusicGo
@@ -50,8 +39,8 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-airplay2
 svn co https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci-theme-infinityfreedom
 svn co https://github.com/cnzd/luci-app-koolproxyR/trunk ./luci-app-koolproxyR
 svn co https://github.com/MiRouter/luci-app-vssr-plus/trunk ./luci-app-vssr-plus
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/GoQuiet
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/ChinaDNS
+svn co https://github.com/immortalwrt/packages/trunk/net/GoQuiet
+svn co https://github.com/immortalwrt/packages/trunk/net/ChinaDNS
 svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman
 svn co https://github.com/lisaac/luci-lib-docker/trunk/collections/luci-lib-docker
 svn co https://github.com/lisaac/luci-app-diskman/trunk ./luci-app-diskman
@@ -91,15 +80,14 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ddns-scripts_aliy
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ddns-scripts_dnspod
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-cifs-mount
 git clone https://github.com/yiguihai/luci-app-passwall-plus
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/openwrt-udpspeeder
+svn co https://github.com/immortalwrt/immortalwrt/trunk/udpspeeder
 git clone https://github.com/koshev-msk/luci-app-modeminfo
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/openwrt-Pcap_DNSProxy
+svn co https://github.com/immortalwrt/packages/trunk/net/openwrt-pcap_dnsproxy
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/tcpping
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/dnscrypt-proxy-full
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/dnsforwarder
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/openwrt-udp2raw
+svn co https://github.com/immortalwrt/packages/trunk/net/dnscrypt-proxy
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/dnsforward
 svn co https://github.com/obsy/packages/trunk/3ginfo
 svn co https://github.com/liuran001/openwrt-theme/trunk/luci-theme-argon-lr
 git clone https://github.com/jerrykuku/luci-app-argon-config
