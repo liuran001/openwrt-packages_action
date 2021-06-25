@@ -18,13 +18,7 @@ svn co https://github.com/jerrykuku/luci-app-vssr/trunk ./luci-app-vssr
 svn co https://github.com/tty228/luci-app-serverchan/trunk ./luci-app-serverchan
 svn co https://github.com/fw876/helloworld/trunk ./
 rm -rf .svn
-svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol ./
-rm -rf .svn
-svn co https://github.com/xiaorouji/openwrt-package/trunk/obsolete ./
-rm -rf .svn
-svn co https://github.com/xiaorouji/openwrt-package/trunk/others ./
-rm -rf .svn
-svn co https://github.com/xiaorouji/openwrt-package/trunk/package ./
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./
 rm -rf .svn
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns
 svn co https://github.com/kenzok8/openwrt-packages/trunk/smartdns
