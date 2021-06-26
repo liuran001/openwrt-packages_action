@@ -90,7 +90,7 @@ svn co https://github.com/liuran001/openwrt-theme/trunk/luci-theme-argon-lr
 git clone https://github.com/jerrykuku/luci-app-argon-config
 svn co https://github.com/BCYDTZ/luci-app-UUGameAcc/trunk ./luci-app-UUGameAcc
 
-rm -rf .git
+rm -rf ./*/.git
 rm -rf .svn 
 rm -f .gitattributes .gitignore
 exit 0
