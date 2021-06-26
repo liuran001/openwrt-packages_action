@@ -15,9 +15,7 @@ svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme
 svn co https://github.com/jerrykuku/luci-app-vssr/trunk ./luci-app-vssr
 svn co https://github.com/tty228/luci-app-serverchan/trunk ./luci-app-serverchan
 svn co https://github.com/fw876/helloworld/trunk ./
-rm -rf .svn
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./
-rm -rf .svn
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns
 svn co https://github.com/kenzok8/openwrt-packages/trunk/smartdns
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-argon_new
@@ -48,7 +46,6 @@ rm -rf parted
 mkdir parted
 wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O parted/Makefile
 svn co https://github.com/destan19/OpenAppFilter/trunk ./
-rm -rf .svn
 svn co https://github.com/4IceG/luci-app-3ginfo/trunk/luci-app-3ginfo
 rm -rf luci-app-wrtbwmon
 rm -rf wrtbwmonluci
@@ -93,7 +90,7 @@ svn co https://github.com/liuran001/openwrt-theme/trunk/luci-theme-argon-lr
 git clone https://github.com/jerrykuku/luci-app-argon-config
 svn co https://github.com/BCYDTZ/luci-app-UUGameAcc/trunk ./luci-app-UUGameAcc
 
-rm -rf ./*/.git
-rm -rf ./*/.svn 
+rm -rf .git
+rm -rf .svn 
 rm -f .gitattributes .gitignore
 exit 0
