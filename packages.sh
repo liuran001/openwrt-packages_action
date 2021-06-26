@@ -79,7 +79,7 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-cifs-mou
 git clone https://github.com/yiguihai/luci-app-passwall-plus
 svn co https://github.com/immortalwrt/packages/trunk/net/udpspeeder
 git clone https://github.com/koshev-msk/luci-app-modeminfo
-svn co https://github.com/immortalwrt/packages/trunk/net/openwrt-pcap_dnsproxy
+svn co https://github.com/immortalwrt/packages/trunk/net/pcap_dnsproxy
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/tcpping
