@@ -91,6 +91,6 @@ git clone https://github.com/jerrykuku/luci-app-argon-config
 svn co https://github.com/BCYDTZ/luci-app-UUGameAcc/trunk ./luci-app-UUGameAcc
 
 rm -rf ./*/.git
-rm -rf .svn 
+rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
 exit 0
