@@ -1,5 +1,5 @@
 #!/bin/bash
-svn co https://github.com/kenzok8/openwrt-packages/trunk/adguardhome
+svn co https://github.com/immortalwrt/packages/trunk/net/adguardhome
 svn co https://github.com/immortalwrt/packages/trunk/net/gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome ./luci-app-adguardhome
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
@@ -40,7 +40,7 @@ svn co https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci
 svn co https://github.com/immortalwrt/luci-app-koolproxyR/trunk ./luci-app-koolproxyR
 svn co https://github.com/MiRouter/luci-app-vssr-plus/trunk ./luci-app-vssr-plus
 svn co https://github.com/immortalwrt/packages/trunk/net/GoQuiet
-svn co https://github.com/immortalwrt/packages/trunk/net/ChinaDNS
+svn co https://github.com/immortalwrt/packages/trunk/net/chinadns
 svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman
 svn co https://github.com/lisaac/luci-lib-docker/trunk/collections/luci-lib-docker
 svn co https://github.com/lisaac/luci-app-diskman/trunk ./luci-app-diskman
