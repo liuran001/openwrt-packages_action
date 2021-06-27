@@ -14,6 +14,7 @@ svn co https://github.com/jerrykuku/luci-app-jd-dailybonus/trunk ./luci-app-jd-d
 svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme-argon
 svn co https://github.com/jerrykuku/luci-app-vssr/trunk ./luci-app-vssr
 svn co https://github.com/tty228/luci-app-serverchan/trunk ./luci-app-serverchan
+rm -rf .svn
 svn co https://github.com/fw876/helloworld/trunk ./
 rm -rf .svn
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./
