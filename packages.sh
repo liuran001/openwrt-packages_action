@@ -89,6 +89,8 @@ svn co https://github.com/obsy/packages/trunk/3ginfo
 svn co https://github.com/liuran001/openwrt-theme/trunk/luci-theme-argon-lr
 git clone https://github.com/jerrykuku/luci-app-argon-config
 svn co https://github.com/BCYDTZ/luci-app-UUGameAcc/trunk ./luci-app-UUGameAcc
+svn co https://github.com/garypang13/openwrt-bypass/trunk/luci-app-bypass
+svn co https://github.com/garypang13/openwrt-bypass/smartdns-le
 
 rm -rf ./*/.git
 rm -rf ./*/.svn 
