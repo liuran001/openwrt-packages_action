@@ -95,6 +95,7 @@ svn co https://github.com/BCYDTZ/luci-app-UUGameAcc/trunk ./luci-app-UUGameAcc
 svn co https://github.com/garypang13/openwrt-bypass/trunk/luci-app-bypass
 svn co https://github.com/garypang13/openwrt-bypass/trunk/smartdns-le
 svn co https://github.com/esirplayground/luci-app-LingTiGameAcc/trunk ./luci-app-LingTiGameAcc
+svn co https://github.com/esirplayground/LingTiGameAcc/trunk ./LingTiGameAcc
 
 rm -rf .svn
 rm -rf ./*/.git
