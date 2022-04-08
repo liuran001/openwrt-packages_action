@@ -96,7 +96,8 @@ svn co https://github.com/garypang13/openwrt-bypass/trunk/luci-app-bypass
 svn co https://github.com/garypang13/openwrt-bypass/trunk/smartdns-le
 svn co https://github.com/esirplayground/luci-app-LingTiGameAcc/trunk ./luci-app-LingTiGameAcc
 svn co https://github.com/esirplayground/LingTiGameAcc/trunk ./LingTiGameAcc
-svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt
+svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt/luci-app-aliyundrive-webdav
+svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt/aliyundrive-webdav
 
 rm -rf .svn
 rm -rf ./*/.git
