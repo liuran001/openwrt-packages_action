@@ -98,6 +98,9 @@ svn co https://github.com/esirplayground/luci-app-LingTiGameAcc/trunk ./luci-app
 svn co https://github.com/esirplayground/LingTiGameAcc/trunk ./LingTiGameAcc
 svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt/luci-app-aliyundrive-webdav
 svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt/aliyundrive-webdav
+svn co https://github.com/sbwml/luci-app-mosdns/trunk/mosdns ./mosdns
+svn co https://github.com/sbwml/luci-app-mosdns/trunk/luci-app-mosdns ./luci-app-mosdns
+git clone https://github.com/sbwml/v2ray-geodata
 
 rm -rf .svn
 rm -rf ./*/.git
