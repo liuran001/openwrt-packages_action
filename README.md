@@ -6,7 +6,8 @@
 
 
 ## 有问题请发issue，我不上恩山的！！！
-请求加入xxx软件包/问题反馈也请使用issue
+请求加入xxx软件包/问题反馈也请使用issue  
+您也可以在[这个仓库](https://github.com/liuran001/openwrt-packages_action)发送PR
 
 
 ## 食用方式（三选一）：
