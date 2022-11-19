@@ -41,7 +41,7 @@ jobs:
       run: |
         cd $GITHUB_WORKSPACE
         chmod +x packages.sh
-        git clone -b packages https://github.com/liuran001/openwrt-packages.git
+        git clone -b packages https://github.com/liuran001/openwrt-packages.git packages
         cd packages
         rm -Rf *
         git rm --cache *
