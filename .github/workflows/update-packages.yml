@@ -17,7 +17,7 @@ env:
 
 jobs:
   merge:
-    runs-on: ubuntu-18.04
+    runs-on: Ubuntu-22.04
     if: github.event.repository.owner.id == github.event.sender.id || ! github.event.sender.id
         
     steps:
@@ -39,20 +39,20 @@ jobs:
     - name: Clone packages
       run: |
         cd $GITHUB_WORKSPACE
-        chmod +x ${{matrix.target}}.sh
-        git clone -b ${{matrix.target}} https://github.com/liuran001/openwrt-packages.git ${{matrix.target}}
-        cd ${{matrix.target}}
+        chmod +x packages.sh
+        git clone -b packages https://github.com/liuran001/openwrt-packages.git
+        cd packages
         rm -Rf *
         git rm --cache *
-        $GITHUB_WORKSPACE/${{matrix.target}}.sh
+        $GITHUB_WORKSPACE/packages.sh
 
     - name: Upload
       run: |
-        [ -e $GITHUB_WORKSPACE/README.md ] && cp $GITHUB_WORKSPACE/README.md $GITHUB_WORKSPACE/${{matrix.target}}
-        cd $GITHUB_WORKSPACE/${{matrix.target}}
+        [ -e $GITHUB_WORKSPACE/README.md ] && cp $GITHUB_WORKSPACE/README.md $GITHUB_WORKSPACE/packages
+        cd $GITHUB_WORKSPACE/packages
         git add .
         git commit -m "update$(TZ='Asia/Shanghai' date +@%Y%m%d)"
-        git push --quiet "https://${{ secrets.TOKEN }}@github.com/liuran001/openwrt-packages.git" HEAD:${{matrix.target}} || exit 0
+        git push --quiet "https://${{ secrets.TOKEN }}@github.com/liuran001/openwrt-packages.git"
  
 
  
