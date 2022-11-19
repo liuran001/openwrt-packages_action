@@ -11,6 +11,7 @@ on:
     - cron: 0 */12 * * *
   watch:
     types: started
+  workflow_dispatch:
 
 env:
   TZ: Asia/Shanghai
